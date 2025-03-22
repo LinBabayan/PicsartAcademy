@@ -72,9 +72,15 @@ Write a program that checks whether the given number is a lucky number or not. A
 
 ## Loops, if-else | Mar 21 | Homework
 ______________________________
+### Task 1. 
+
 Write a program in assembly language that prints the nth Fibonacci number on the screen.
+
+### Task 2.
+
 Write a program that checks whether a given number is perfect or not. A perfect number is a number whose divisors sum to equal the number.
-Write a program that allows the user to enter a number n, and prints the numbers 1 to n on the screen in the following format:
+
+ ### Task 3.Write a program that allows the user to enter a number n, and prints the numbers 1 to n on the screen in the following format:
 
 1
 
@@ -84,7 +90,10 @@ Write a program that allows the user to enter a number n, and prints the numbers
 
 4444
 
+### Task 4. 
+
 Write a program that allows the user to enter a number n, and prints the numbers 1 to n on the screen in the following format:
+
 1
 
 2 3
@@ -92,6 +101,8 @@ Write a program that allows the user to enter a number n, and prints the numbers
 4 5 6
 
 7 8 9 10
+
+### Task 5. 
 
 Write a program that allows the user to enter a number n, and prints a square with side length n on the screen.
 For example, print for 5
@@ -106,6 +117,7 @@ For example, print for 5
 
 `* * * * *`
 
+### Task 6. 
 
 Write a program that allows the user to enter the number n, prints a square on the screen, where n is the length of the side.
 For example, n = 5.
@@ -119,6 +131,8 @@ For example, n = 5.
 `*       *`
 
 `* * * * *`
+
+### Task 7. 
 
 Write a program that allows the user to enter the number n, prints a triangle on the screen, where n is the height of the triangle.
 For example, n = 5.
