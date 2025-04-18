@@ -13,7 +13,4 @@ void run_sum_program() {
     printf("Sum of digits = %d\n", sumOfDigits(num));
 }
 
-int main() {
-    run_sum_program();
-    return 0;
-}
+
