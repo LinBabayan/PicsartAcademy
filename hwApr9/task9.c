@@ -31,7 +31,4 @@ void run_uppercase_program() {
     }
 }
 
-int main() {
-    run_uppercase_program();
-    return 0;
-}
+
