@@ -26,7 +26,7 @@ void printCar(Car car) {
     printf("-----------------------\n");
 }
 
-void handleCars() {
+void handleCars1() {
     Car cars[3];
     for (int i = 0; i < 3; i++) {
         printf("Enter details for car %d:\n", i + 1);
@@ -40,7 +40,7 @@ void handleCars() {
 }
 
 int main() {
-    handleCars();
+    handleCars1();
     return 0;
 }
 
