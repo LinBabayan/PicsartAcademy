@@ -26,7 +26,4 @@ void run_binary_program() {
     printBinary(num);
 }
 
-int main() {
-    run_binary_program();
-    return 0;
-}
+
