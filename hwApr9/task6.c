@@ -19,7 +19,4 @@ void run_reverse_array_program() {
     printArrayReverse(arr, n);
 }
 
-int main() {
-    run_reverse_array_program();
-    return 0;
-}
+
