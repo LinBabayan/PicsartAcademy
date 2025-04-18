@@ -57,8 +57,3 @@ void handleCars2() {
     findCheapestAndNewest(cars, 3);
 }
 
-int main() {
-    handleCars2();
-    return 0;
-}
-
