@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void printUpToN(int n) {
-    if (n < 0){
+    if (n < 0) {
         return;
     }
     
@@ -9,12 +9,13 @@ void printUpToN(int n) {
     printf("%d\n", n);
 }
 
-int main() {
-    int num = 0;
-    
+void run_print_up_program() {
+    int num;
     scanf("%d", &num);
     printUpToN(num);
-    
-    return 0;
 }
 
+int main() {
+    run_print_up_program();
+    return 0;
+}
