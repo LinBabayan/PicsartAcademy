@@ -1,19 +1,20 @@
 #include <stdio.h>
 
 void printDownToZero(int n) {
-    if (n < 0){
+    if (n < 0) {
         return;
-        }
+    }
     printf("%d\n", n);
     printDownToZero(n - 1);
 }
 
-int main() {
-    int num = 0;
-    
+void run_print_program() {
+    int num;
     scanf("%d", &num);
     printDownToZero(num);
-    
-    return 0;
 }
 
+int main() {
+    run_print_program();
+    return 0;
+}
