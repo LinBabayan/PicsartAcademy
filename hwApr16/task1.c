@@ -39,8 +39,5 @@ void handleCars1() {
     }
 }
 
-int main() {
-    handleCars1();
-    return 0;
-}
+
 
