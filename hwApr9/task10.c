@@ -18,20 +18,22 @@ int findLargest(int arr[], int size) {
     return (arr[0] > maxOfRest) ? arr[0] : maxOfRest;
 }
 
-int main() {
+void run_array_program() {
     int arr[10], size = 0;
     
     printf("enter size: ");
     scanf("%d", &size);
     
     printf("enter array: ");
-    for(int i = 0; i < size; ++i){
-    	scanf("%d", arr + i);
+    for (int i = 0; i < size; ++i) {
+        scanf("%d", arr + i);
     }
    
     printf("smallest: %d\n", findSmallest(arr, size));
     printf("largest: %d\n", findLargest(arr, size));
-
-    return 0;
 }
 
+int main() {
+    run_array_program();
+    return 0;
+}
