@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-typedef struct {
-    char brand[20];
-    char model[20];
-    float price;
-} Car;
+
 
 void inputCar(Car *c) {
     printf("Enter brand: ");
