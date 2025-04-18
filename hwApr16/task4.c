@@ -52,8 +52,5 @@ void handleProducts() {
     printFoodProducts(p, 3);
 }
 
-int main() {
-    handleProducts();
-    return 0;
-}
+
 
