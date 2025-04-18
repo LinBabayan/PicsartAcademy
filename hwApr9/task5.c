@@ -18,7 +18,4 @@ void run_array_program() {
     printArray(arr, n);
 }
 
-int main() {
-    run_array_program();
-    return 0;
-}
+
