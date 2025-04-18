@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-union Value {
-    int intValue;
-    float floatValue;
-};
+
 
 
 void demonstrateUnion() {
