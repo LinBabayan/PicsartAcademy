@@ -15,7 +15,3 @@ void run_print_up_program() {
     printUpToN(num);
 }
 
-int main() {
-    run_print_up_program();
-    return 0;
-}
