@@ -1,10 +1,6 @@
 #include <stdio.h>
 
-typedef struct {
-    char name[30];
-    int age;
-    float marks;
-} Student;
+
 
 void inputStudent(Student *s) {
     printf("Enter name: ");
