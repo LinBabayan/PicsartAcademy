@@ -13,7 +13,4 @@ void run_fibonacci_program() {
     printf("Fibonacci(%d) = %d\n", n, fibonacci(n));
 }
 
-int main() {
-    run_fibonacci_program();
-    return 0;
-}
+
