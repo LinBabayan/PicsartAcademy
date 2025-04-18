@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-union Data {
-    int i;
-    float f;
-    char c;
-};
-
 void assignInt(union Data *d, int value) {
     d->i = value;
     printf("Assigning int value: %d\n", d->i);
