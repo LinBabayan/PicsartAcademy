@@ -41,8 +41,4 @@ void handleStudents() {
     findTopper(s, 5);
 }
 
-int main() {
-    handleStudents();
-    return 0;
-}
 
