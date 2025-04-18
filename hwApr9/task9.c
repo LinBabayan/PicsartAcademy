@@ -1,14 +1,11 @@
 #include <stdio.h>
 
-int upper(char a){
-	if(a >= 'A' && a <= 'Z'){
-		return 1;
-	}
-	return 0;
+int upper(char a) {
+    return (a >= 'A' && a <= 'Z');
 }
 
 char find_first_uppercase(char *str) {
-     if (*str == '\0') {
+    if (*str == '\0') {
         return '\0';
     }
 
@@ -19,21 +16,22 @@ char find_first_uppercase(char *str) {
     return find_first_uppercase(str + 1);
 }
 
-int main() {
+void run_uppercase_program() {
     char str[100];
-    
+
     printf("enter string: ");
     scanf("%s", str);
-    
+
     char result = find_first_uppercase(str);
 
     if (result != '\0') {
         printf("The first uppercase: %c\n", result);
-    } 
-    else {
+    } else {
         printf("No uppercase found.\n");
     }
-
-    return 0;
 }
 
+int main() {
+    run_uppercase_program();
+    return 0;
+}
