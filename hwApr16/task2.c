@@ -42,7 +42,7 @@ void findCheapestAndNewest(Car cars[], int size) {
     printCar(cars[newIndex]);
 }
 
-void handleCars() {
+void handleCars2() {
     Car cars[3];
     for (int i = 0; i < 3; i++) {
         printf("\nEnter details for car %d:\n", i + 1);
@@ -58,7 +58,7 @@ void handleCars() {
 }
 
 int main() {
-    handleCars();
+    handleCars2();
     return 0;
 }
 
