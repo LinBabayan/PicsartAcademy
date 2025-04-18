@@ -16,7 +16,4 @@ void run_product_program() {
     printf("result = %d\n", productOfDigits(num));
 }
 
-int main() {
-    run_product_program();
-    return 0;
-}
+
