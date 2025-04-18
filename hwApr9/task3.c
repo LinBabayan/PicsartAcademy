@@ -14,7 +14,3 @@ void run_print_program() {
     printDownToZero(num);
 }
 
-int main() {
-    run_print_program();
-    return 0;
-}
