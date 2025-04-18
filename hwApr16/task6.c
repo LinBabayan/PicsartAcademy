@@ -40,8 +40,4 @@ void handleComparison() {
     printCar(expensive);
 }
 
-int main() {
-    handleComparison();
-    return 0;
-}
 
