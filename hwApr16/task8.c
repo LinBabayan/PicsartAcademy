@@ -24,15 +24,5 @@ void assignChar(union Data *d, char value) {
     printf("int: %d, float: %f, char: %c\n\n", d->i, d->f, d->c);
 }
 
-int main() {
-    union Data d;
 
-    assignInt(&d, 10);
-    assignFloat(&d, 5.5);
-    assignChar(&d, 'A');
-
-    printf("Size of union: %lu bytes\n", sizeof(d));
-
-    return 0;
-}
 
