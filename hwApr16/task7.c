@@ -18,8 +18,5 @@ void demonstrateUnion() {
     printf("Size of union: %lu bytes\n", sizeof(v));
 }
 
-int main() {
-    demonstrateUnion();
-    return 0;
-}
+
 
