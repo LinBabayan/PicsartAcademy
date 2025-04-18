@@ -1,18 +1,5 @@
 #include <stdio.h>
 
-typedef enum {
-    ELECTRONICS,
-    FOOD,
-    CLOTHING
-} Category;
-
-
-typedef struct {
-    char name[20];
-    Category category;
-    float price;
-} Product;
-
 
 void inputProduct(Product *p) {
     int catChoice;
