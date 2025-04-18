@@ -33,7 +33,4 @@ void run_array_program() {
     printf("largest: %d\n", findLargest(arr, size));
 }
 
-int main() {
-    run_array_program();
-    return 0;
-}
+
