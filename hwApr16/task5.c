@@ -40,8 +40,3 @@ void handleBooks() {
     findOldestBook(books, 4);
 }
 
-int main() {
-    handleBooks();
-    return 0;
-}
-
